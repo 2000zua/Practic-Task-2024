@@ -1,0 +1,21 @@
+Knife. Moonlit night. Rotten stump with a short black-handled knife in it. Those who know will understand. 
+Disaster in the village. Werewolf.
+There are no so many residents in the village. Many of them are each other's relatives. Only this may help to find the werewolf. 
+The werewolf is merciless, but his descendants never become his victims. The werewolf can drown the village in blood, but he never 
+kills his ancestors.
+It is known about all the villagers who is the child of whom. Also, the sad list of the werewolf's victims is known. Your program 
+should help to determine the suspects. It would be a hard task, if a very special condition would not hold. Namely, citizens of the 
+village are not used to leave it. If some ancestor of some citizen lives in the village, then also his immediate ancestor does. 
+It means, that, for example, if the father of the mother of some citizen still lives in the village, than also his mother still lives.
+
+Input
+The first line contains an integer N, 1 < N ≤ 1000, which is the number of the villagers. The villagers are assigned numbers 
+from 1 to N. Further is the description of the relation "child-parent": a sequence of lines, each of which contains two numbers 
+separated with a space; the first number in each line is the number of a child and the second number is the number of the child's 
+parent. The data is correct: for each of the residents there are no more than two parents, and there are no cycles. The list is 
+followed by the word "BLOOD" written with capital letters in a separate line. After this word there is the list of the werewolf's 
+victims, one number in each line.
+
+Output
+The output should contain the numbers of the residents who may be the werewolf. The numbers must be in the ascending order and 
+separated with a space. If there are no suspects, the output should contain the only number 0.

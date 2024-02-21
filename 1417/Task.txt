@@ -1,0 +1,24 @@
+At the First Lunar Casino there are new rules for playing space poker. A pack contains N cards. 
+A player pays the croupier 20 space rubles and chooses a card from his pack. The croupier chooses 
+a card from his pack. If the selected cards are identical, then the player wins 1000 rubles. 
+If the cards are different, then he/she may win a sum not exceeding 10 rubles. This sum depends 
+on the cards that have been chosen and is specied in the prize-table.
+Your task is to write a program that tells the croupier which card to choose in order to maximize 
+the mean profit of the casino. It is supposed that all players know the prize-table by heart and 
+choose their strategies in the best possible way.
+If you ask any mathematician how to write such a program, you'll learn that this is a classical minimax 
+problem, which was solved decades ago, and that everyone should know about matrix games with mixed 
+strategies. The croupier should choose a card at random with such probabilities that the mathematical 
+expectation of the gain is independent of the card chosen by the player. And if you ask about a 
+mathematical expectation, this is a kind of a mean value: the sum of possible gains multiplied by 
+probabilities of getting them.
+
+Input
+The first line contains the number of cards N (1 < N ≤ 100). Then follows the prize-table. Each row of 
+the table shows possible gains of a player who has chosen the card corresponding to the number of 
+the row. The number of the column corresponds to the card chosen by the croupier. The numbers in the 
+main diagonal of the table are 1000, other numbers are in the range from 0 to 10.
+
+Output
+You should output with accuracy to the fifth digit the probabilities with which the croupier should 
+choose a card.

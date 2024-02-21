@@ -1,0 +1,10 @@
+The are N points on the plane (N is even). No three points lie on the same straight 
+line. Your task is to select two points in such a way, that straight line they 
+belong to divides the set of points into two equal-sized parts.
+
+Input
+First line contains one integer N (4 ≤ N ≤ 10000). Each of next N lines contains 
+pair of integers xi, yi (−106 ≤ xi, yi ≤ 106), the coordinates of i-th point.
+
+Output
+Print the numbers of selected points.

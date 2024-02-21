@@ -1,0 +1,30 @@
+The last time many users keep internet diaries — blogs. The users keep their diaries and occasionally 
+read other’s. Those users like to count their virtual friends. A friend for them is anyone who reads 
+their twaddle. Assume that a user reads another’s blog if he mentions the one in his diary.
+You are to output for each user a list of his friends, the people who regard him as a friend and a list 
+of mutual friends, i.e. those who are friends of the assumed user and regard him as a friend.
+You are given the blogs of those users. For each user you are to output the mentioned above three lists. 
+The users mark their friends with a tag <friend>. A tag is the line that consist of small Latin letters 
+between the marks lower than (<) and greater than (>). A closing tag is the string of small Latin between
+the symbols lower than and slash (</) in the beginning and greater than (>) in the end.
+
+Input
+The first line contains a integer N (1 ≤ N ≤ 100) — a number of blogs in the input. The first line of 
+each blog consists a name of the blogger. All the bloggers’ names are different. The next line starts
+with a tag <blog>. The last blog line ends with a closing tag </blog>. There is no other tags in the 
+text of blog. Each opening and closing tag has it’s pair tag in the text. Symbols <, > and / occur only 
+in tags. The input contains only small and capital Latin letters, digits, symbols greater than, lower 
+than, slash, full stops, commas and underlining symbols. The friends’ names are case sensitive. 
+A tag can’t be torn by a line feed. A friend’s name may consist of small and capital Latin letters 
+and an underlining symbol. A friend’s name can’t be empty. Blogs line doesn’t exceed 255 symbols. 
+A blog contains not more than 1000 lines. An amount of friends mentioned in a blog doesn’t exceed 100.
+
+Output
+For each blogger from the input you are to output a list of those who’s blogs he mentioned (friends), 
+a list of those who mentioned him in his blog (is a friend of) and a list of those who is present in 
+both previous lists. Each list is to be outputted in a separate line and sorted in the alphabetic order. 
+Names in a list are to be separated with a comma and space. Before the “friends” list you are to output 
+s string “1: ”. Before an “is a friend of” list you are to output a string “2: ”. Before a list 
+of “mutual friends” you are to output a string “3: ”. Before those three lists you are to output a 
+name of the blogger and an empty line beforehand (if it is not the first input blogger). A blogger 
+is not a friend of himself even if he mentioned himself in his blog.

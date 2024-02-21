@@ -1,0 +1,16 @@
+Once I dropped into a cafe to have a snack. I took a first course (a big round plate), a salad (a smaller round plate), 
+and a cup of tea (on a small saucer). I tried to arrange all this on a rectangular tray, which was quite a problem. 
+“Yes, a problem! A nice problem for the Urals Championship!”, I thought.
+Now you are to solve this problem. I will give you the size of the tray and of the three plates, and you should try to 
+arrange the plates on the tray.
+
+Input
+The input contains the sides of a rectangular H and W and the radii of circles R1, R2, R3. All the numbers are positive 
+integers and do not exceed 106. The numbers are separated with spaces or line breaks.
+
+Output
+You should output the only number 0 if the required arrangement is impossible. Otherwise, you should output three pairs of 
+numbers, which are the coordinates of the centers of the plates. The coordinates must be given in the following coordinate 
+system: the origin is the corner of the tray, the X axis is directed along the side of the tray whose length is given first, 
+the Y axis is directed along the other side of the tray. The order of the pairs of coordinates should correspond to the order 
+of the radii given in the input data.

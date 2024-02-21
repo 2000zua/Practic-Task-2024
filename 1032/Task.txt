@@ -1,0 +1,15 @@
+The input contains N positive integers. These integers are not necessarily different 
+(so it may happen that two or more of them will be equal). Your task is to choose a 
+few of given integers (1 ≤ few ≤ N) so that their sum is a multiple for N, i.e. equals
+ N · k for some integer k.
+
+Input
+The first line contains an integer N (1 ≤ N ≤ 10000). 
+Each of the next N lines contains one integer from the given set. 
+All integers are positive and not greater than 15000.
+
+Output
+If the target set of integers can not be found output the single number 0. 
+Otherwise output the number of the chosen integers in the first line followed by 
+the chosen integers themselves (on a separate line each) in arbitrary order.
+If there are more than one set of integers with required properties you may output any of them.

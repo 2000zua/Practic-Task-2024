@@ -1,0 +1,19 @@
+Tyomitch plays the following game with N of his friends. Tyomitch leaves the room. 
+His friends write numbers from 1 to N on cards, and each of the friends takes a card 
+in a way that Tyomitch doesn't know which card each one has. Let's number the friends 
+from 1 to N. After Tyomitch comes back to the room, each of his friends makes 2 statements 
+of the following form (examples given for i'th friend):
+1- I have the card number ai.
+2- bi'th friend has the card number ci (bi ≠ i).
+Exactly one of these statements is true, and the other one is false. It's known that no two 
+friends said that friend b has card c, and nobody said that friend b has card c if b admitted 
+that he has this very card. The task for Tyomitch is to determine for each of his friends which 
+of his statements is true.
+
+Input
+The first line of the input contains the number N (2 ≤ N ≤ 1000). Each of the following N lines 
+contains a triple ai, bi, ci — the statements of Tyomitch's friends.
+
+Output
+The only line of output must contain N numbers separated with spaces, being the numbers of the true 
+statement (either 1 or 2) for each of the friends. It is known that a solution exists.

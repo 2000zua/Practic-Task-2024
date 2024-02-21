@@ -1,0 +1,24 @@
+When programmer Vova was in China he discovered that Russian watches “Zarya” were sold there ten 
+times cheaper than in Russia. Vova decided to make some money and bought a lot of watches. He 
+wanted to sell them at home at half-price (that would be five times more expensive than he had 
+paid for them). But when he returned he found out that the watches showed different times; moreover, 
+from a slightest push they stopped (or started to work again). Obviously, they were not real “Zarya” 
+watches, but their exact copies. In order to sell the whole lot as quickly as possible, Vova wants 
+to set them all at the same time. He then will be able to say that this is the time at the producing 
+plant. Of course, before opening the suitcase he will have to push it a bit to make the watches start 
+to work simultaneously.
+In order to set a time on a watch, Vova must rotate the winder. He can make one turn of the winder in 
+one second; as he does so, the second-hand makes a complete circle. When Vova turns the winder, the 
+minute-hand rotates 60 times slower than the second-hand, and the hour-hand rotates 12 times slower 
+than the minute-hand. For example, to set time six hours ahead it takes six minutes. The hands of the 
+watches can be rotated clockwise only. Help Vova to prepare the watches for sale. Choose a time that 
+should be set on all watches so that the total time Vova spends setting it is minimal.
+
+Input
+The first line contains the number n of watches Vova bought (1 ≤ n ≤ 50000). Then there are n lines. 
+The (i+1)th line of the input contains the time that the ith watch shows, in the format h:mm:ss. 
+Here the integer h (1 ≤ h ≤ 12) is the hour and the two-digit integers mm and ss (00 ≤ mm, ss ≤ 59) are 
+the minutes and seconds, respectively.
+
+Output
+Output the time that should be set on all watches in the format given above.

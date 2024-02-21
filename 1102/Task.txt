@@ -1,0 +1,12 @@
+One entity named "one" tells with his friend "puton" and their conversation is interesting. 
+"One" can say words "out" and "output", besides he calls his friend by name. "Puton" can say 
+words "in", "input" and "one". They understand each other perfect and even write dialogue in 
+strings without spaces. You have N strings. Find which of them are dialogues.
+
+Input
+In the first line of input there an integer N (1 ≤ N ≤ 1000). Next N lines contain non-empty strings. 
+Each string consists of small Latin letters. The length of each string is no more than 4 · 106 characters, 
+total length of all strings is no more than 8 · 106 characters.
+
+Output
+Output consists of N lines. Line contains word "YES", if string is some dialogue of "one" and "puton", otherwise "NO".
