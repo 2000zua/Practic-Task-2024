@@ -1,0 +1,12 @@
+Android Vasya attends Maths classes. His group started to study the number theory recently. 
+The teacher gave them several tasks as a homework. One of them is as follows.
+There is an integer n. The problem is to find a sequence of integers a1, …, an such that for 
+any k from 2 to n the sum a1 + … + ak has exactly ak different positive divisors. 
+Help Vasya to cope with this task.
+
+Input
+The only line contains an integer n (2 ≤ n ≤ 100 000).
+
+Output
+If there is no such sequence output “Impossible”. Otherwise output space-separated 
+integers a1, …, an (1 ≤ ai ≤ 300).

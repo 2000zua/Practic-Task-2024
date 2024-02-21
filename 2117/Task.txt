@@ -1,0 +1,19 @@
+Cyclops Polyphemus, once blinded by cunning Odysseus, have given up sheep breeding and started 
+to do math. For the past time the offense on insidious Greek subsided somewhat, Polyphemus have 
+analyzed the situation and now he is totally absorbed by the work on the bugs. Blind Polyphemus 
+sees the root of his defeat in square root ignorance. Now they are the only topic of his research.
+At the moment, cyclops is entertained by the triplets of positive integer numbers, possessing the 
+following property: sum of the square roots of the first two numbers equals the square root of the
+third number (in tribute to the researcher we will call such triplets Polyphemus’). 
+For example, √ 7857  + √ 24832  = √ 60625  is a Polyphemus’ triplet.
+To a greater extent Polyphemus was fascinated by the fact that some numbers may be part of multiple 
+different Polyphemus’ triplets. For each number C Polyphemus defined z(C) as a number of pair of 
+nonnegative integer numbers A ≤ B, such that √ A  + √ B  = √ C . Cyclops have found truly wonderful 
+algorithm for calculating z(C) using only a compass and a ruler, but, unfortunately, because of his 
+blindness Polyphemus can’t implement it in real life! That’s why you should help him find z(C).
+
+Input
+A single line contains a single integer number C, 0 ≤ C ≤ 1018.
+
+Output
+You should output a single number  — z(C).

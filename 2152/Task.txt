@@ -1,0 +1,23 @@
+If you send a package that has a weight greater than mxw, the receiver must pay a credits for 
+each kilogram over mxw. Also, if the cost of the package is greater than mxp, the receiver must 
+additionally pay b percent of every credit over mxp. These fees do not count towards the cost of 
+the package.
+Recently employees of SKB Kontur installed a new system that would keep track of packages and 
+automatically calculate fees. Egor gained access to this system and now intends to earn some quick 
+money. He wants to slightly change data of at most k packages out of n packages in the warehouse. 
+To slightly change data is to change exactly one digit of either the weight or the cost of the package. 
+Of course, Egor wants to maximize the total fees from every package. He’ll share a percentage of his 
+earnings with you if you write a program for him.
+
+Input
+The first line contains two integers n and k (1 ≤ n ≤ 2 · 105), (0 ≤ k ≤ n) — the amount of packages and 
+the maximal possible amount of changes.
+The second line contains four integers mxw, mxp, a and b (1 ≤ mxw, mxp, a ≤ 109), (1 ≤ b ≤ 100).
+Each of next n lines contains integers wi and pi (1 ≤ wi, pi ≤ 109) — weight and cost of i-th package.
+
+Output
+Output one real number — the maximal possible sum of tax fees from the packages. Your answer is 
+considered correct if its absolute or relative error doesn’t exceed 10−9. Formally, if your answer 
+is x and jury’s answer is y, your answer is considered correct if |x − y|⁄max(1, |y|) ≤ 10-9.
+Then output n lines, in the i-th of them write the new weight and cost of the i-th package. 
+If there are several possible answers, you may output any of them.

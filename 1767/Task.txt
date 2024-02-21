@@ -1,0 +1,24 @@
+Mr. X is very fond of the novel “The House of Doctor Dee”, which is set in London in the 16th 
+century and in the end of the 20th century. Rereading the novel once again, Mr. X decided to 
+draw a map of London with routes of the protagonists Dr. Dee and Matthew Palmer. Dr.Dee, who 
+lived in the 16th century, often traveled from his house to St. Paul's Cathedral, and Matthew, 
+who lived in the 20th century, regularly walked from the National Gallery to the British Museum.
+Every time it turned out that the protagonists were at the same point in London, Dr. Dee had 
+visions about what was happening to Matthew at that moment. Such moments were often enough, and Mr. X 
+decided to draw the motion trajectories of Dr. Dee and Matthew in such a way that their common part be 
+as long as possible. However, Mr. X is not very good at the topography of London. He assumes that the 
+city is built by a rectangular scheme—each street stretches through the whole city either from west to 
+east or from north to south. The house of Dr. Dee, St. Paul's Cathedral, the National Gallery, and the 
+British Museum are located exactly at the intersections of two orthogonal streets. Moreover, Mr. X is 
+sure that Dr. Dee and Matthew always took one of the shortest possible routes.
+Though London is very big, Mr. X has already drawn its map. He has also marked Dr. Dee's house, St. 
+Paul's Cathedral, the National Gallery, and the British Museum on the map. It now remains to draw the 
+required routes.
+
+Input
+The first line contains coordinates of Dr. Dee's house separated with a space. The following lines 
+contain the coordinates of St. Paul's Cathedral, the National Gallery, and the British Museum in the 
+same format. All the coordinates are integers with absolute values not exceeding 109.
+
+Output
+Output the maximum length of the path that Dr. Dee and Matthew Palmer's routes can have in common.
