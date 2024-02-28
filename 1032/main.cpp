@@ -1,42 +1,31 @@
-#include <cstdio>
-#include <algorithm>
-#include <vector>
-#include <sstream>
-#include <string>
-#include <stack>
-#include <queue>
-#include <set>
 #include <iostream>
-#include <ctime>
-#include <map>
+
 using namespace std;
-#define INF 1000000000
-#define int64 long long
-#define mp make_pair
 
-#define N 1000500
-#define P 1000000007
-
-int A[10500];
-int S[10500];
+// definir a dois array for take a data
+int arrayForInput[10050];
+int arrayForManipu[10050];
 
 int main() {
-    cout <<"Input the N: ";
+    cout <<"How many element add to the array: ";
     int n;
     scanf("%d", &n);
     int s = 0;
-    S[0] = 0;
+    arrayForManipu[0] = 0;
     for (int i=0; i<n; i++) {
-        scanf("%d", &A[i]);
-        s+=A[i];
-        S[i+1]=s;
+        printf("[%d]=", i);
+        scanf("%d", &arrayForInput[i]);
+        s+=arrayForInput[i];
+        arrayForManipu[i+1]=s;
     }
     for (int i=0; i<n+1; i++) {
         for (int j=0; j<i; j++) {
-            if ((S[i]-S[j])%n==0) {
-                printf("%d\n", i-j);
+            if ((arrayForManipu[i]-arrayForManipu[j])%n==0) {
+                printf("Size of subset: %d\n", i-j);
+                printf("Subset = [");
                 for (int k=j; k<i; k++)
-                    printf("%d ", A[k]);
+                    printf(" %d ", arrayForInput[k]);
+                printf("] => %d\n", n);
                 return 0;
             }
         }
