@@ -7,17 +7,8 @@ path he has found on a separate line.
 Your task is to write a program that will help Bill to restore his state of the art directory structure by providing nicely 
 formatted directory tree
 
-Input
-The first line contains single integer N that denotes a total number of distinct directory paths (1 ≤ N ≤ 500). Then N lines 
-with directory paths follow. Each directory path occupies a single line and does not contain any spaces, including leading or 
-trailing ones. No path exceeds 80 characters. Each path is listed once and consists of a number of directory names separated 
-by a back slash ("\").
-Each directory name consists of 1 to 8 uppercase letters, numbers, or the special characters from the following list: exclamation 
-mark, number sign, dollar sign, percent sign, ampersand, apostrophe, opening and closing parenthesis, hyphen sign, commercial at, 
-circumflex accent, underscore, grave accent, opening and closing curly bracket, and tilde ("!#$%&'()-@^_`{}~").
-
-Output
-Output the formatted directory tree. Each directory name shall be listed on its own line preceded by a number of spaces that indicate 
-its depth in the directory hierarchy. The subdirectories shall be listed in lexicographic order immediately after their parent 
-directories preceded by one more space than their parent directory. Top level directories shall have no spaces printed before 
-their names and shall be listed in lexicographic order. See sample below for clarification of the output format.
+O código em C# fornece uma implementação de uma estrutura de diretórios. 
+Ele solicita ao usuário o número total de diretórios (n) a serem inseridos.
+ Em seguida, lê os nomes dos diretórios, substituindo barras invertidas por 
+ espaços, e constrói uma árvore de diretórios. Finalmente, imprime a estrutura 
+ da árvore de diretórios, mostrando a hierarquia dos diretórios.

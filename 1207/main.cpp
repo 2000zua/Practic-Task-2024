@@ -12,7 +12,7 @@ int main() {
     long long n, i, ic = 0, MIN = LLONG_MAX; 
     set <pair<long double, long long>> ang; 
     vector <vector <long long>> vv(2);
-    cout <<"Input the N: ";
+    cout <<"Input the value N: ";
 	cin >> n;
 
 	for (i = 0; i < n; i++) {

@@ -8,5 +8,22 @@ In the first line of input there an integer N (1 ≤ N ≤ 1000). Next N lines c
 Each string consists of small Latin letters. The length of each string is no more than 4 · 106 characters, 
 total length of all strings is no more than 8 · 106 characters.
 
-Output
-Output consists of N lines. Line contains word "YES", if string is some dialogue of "one" and "puton", otherwise "NO".
+
+A descrição do problema define os requisitos de entrada para um problema de 
+programação. Aqui está um resumo dos requisitos de entrada:
+
+Primeira Linha:
+
+Contém um único número inteiro N, representando o total de strings.
+O valor de N está entre 1 e 1000, inclusivo.
+Próximas N Linhas:
+
+Cada linha contém uma string não vazia.
+Cada string é composta por letras minúsculas do alfabeto latino (letras minúsculas).
+O comprimento de cada string não ultrapassa 4 milhões (4.000.000) de caracteres.
+Restrição de Comprimento Total:
+
+O comprimento total de todas as strings combinadas não ultrapassa 8 milhões 
+(8.000.000) de caracteres.
+Por exemplo, se memcmp(ptr1, ptr2, 4) retornar 0, significa que os primeiros 
+4 bytes nas áreas de memória apontadas por ptr1 e ptr2 são iguais

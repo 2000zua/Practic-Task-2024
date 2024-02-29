@@ -14,3 +14,12 @@ You should output a single number: the number of ways the tourist can plan his t
 of the 3*N cities are identical or if the succession of the 3*N cities of the first trip is the same as the succession of the 3*N cities 
 of the 2nd trip, read backwards (for instance, if every island had 1 city, numbered according to the island's number, the trips 1-2-3-1 
 and 1-3-2-1 would be identical).
+
+
+A fórmula combinatória envolvida neste código é um pouco complexa e é usada para calcular um valor específico relacionado à contagem de certos tipos de permutações. 
+Vamos analisar as funções A e B para entender a fórmula em questão.
+
+O código tem como objetivo calcular um valor específico relacionado a uma fórmula combinatória e imprimir o resultado. 
+Essa fórmula parece estar relacionada à contagem de certos tipos de permutações. O uso de números inteiros grandes (BigInt)
+ é necessário para lidar com resultados que podem se tornar muito grandes. O código faz uso de técnicas de memoização para
+  otimizar o desempenho ao evitar cálculos redundantes.

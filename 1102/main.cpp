@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include <cstring>
 
 using namespace std;
 
@@ -33,10 +33,12 @@ bool check(char const* s) {
 
 int main() {
 	int n;
-    printf("Input the N: ");
+	printf("The word: [INPUT].\n");
+    printf("Number of tentative N: ");
 	cin >> n;
 	for (int i = 0; i < n; i++) {
 		string s;
+		printf("=> ");
 		cin >> s;
 		if (check(&s[0]))
 			printf("YES\n");

@@ -2,12 +2,11 @@
 #include <vector>
 #include <queue>
 
-struct vertex
-{
+struct vertex{
     std::vector<vertex*> out;
     int n;
 };
-
+//implementa um algoritmo de busca em profundidade
 void explore(vertex* u, std::vector<vertex*>& ans)
 {   // Go as far as we can in some direction and queue up all nodes. We are guaranteed to return.
     ans.push_back(u);

@@ -6,13 +6,6 @@ where buses moved in the past. The direction of movement along the sections must
 should be used.
 Write a program, which creates one of the possible new routes or finds out that it is impossible.
 
-Input
-The first line contains the number of old routes n (1 ≤ n ≤ 100). Each of the following n lines contains the description 
-of one route: the number of stops m (2 ≤ m ≤ 200) and the list of that stops. Bus stops are identified by integers from 1 to 1000. 
-A route is represented as a sequence of m + 1 bus stop identifiers: l1, l2, …, lm, lm+1 = l1 that are sequentially visited by a bus 
-moving along this route. A route may be self-intersected. A route always ends at the same stop where it starts.
-
-Output
-The output contains the number of stops in the new route k and the new route itself in the same format as in the input. 
-The last (k+1)-th stop must be the same as the first. If it is impossible to make a new route according to the problem statement 
-then write 0 (zero) to the output.
+O objetivo deste código é explorar todos os vértices alcançáveis a partir do último vértice da última sequência em um 
+grafo direcionado. O grafo é construído com base nas sequências de entrada, onde cada sequência é uma lista de vértices 
+conectados por arestas direcionadas.

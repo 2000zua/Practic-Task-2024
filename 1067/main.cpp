@@ -1,10 +1,8 @@
 #include <iostream>
-#include <cmath>
-#include <vector>
-#include <set>
 #include <map>
 #include <sstream>
 #include <algorithm>
+
 using namespace std;
 
 struct dir {
@@ -19,7 +17,7 @@ void print(dir cur, string indent = "") {
 int main() {
     int n;
     string str;
-    print("Numerber off dir: ");
+    printf("Number off dir: ");
     scanf("%d", &n);
     getline(cin, str);
     dir root;
