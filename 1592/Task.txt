@@ -22,3 +22,6 @@ the minutes and seconds, respectively.
 
 Output
 Output the time that should be set on all watches in the format given above.
+
+o programa realiza cálculos para otimizar a distribuição dos eventos ao longo de 12 horas e encontra o 
+momento mais adequado para realizar um evento, considerando a minimização do tempo ocioso.

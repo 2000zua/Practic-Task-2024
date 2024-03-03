@@ -10,3 +10,19 @@ The only line contains an integer n (2 ≤ n ≤ 100 000).
 Output
 If there is no such sequence output “Impossible”. Otherwise output space-separated 
 integers a1, …, an (1 ≤ ai ≤ 300).
+
+ndivs é um array para armazenar o número de divisores de cada número de 1 até 1586335.
+
+ans é um array que armazena os primeiros 100000 números cujos divisores somam exatamente 1586335.
+
+O primeiro loop aninhado calcula o número de divisores para cada número de 1 até 1586335 e armazena esses valores em ndivs.
+
+O segundo loop, de trás para frente, preenche o array ans com os primeiros 100000 valores de ndivs[sum], onde sum é inicialmente 1586335.
+
+O programa lê o valor de n (quantidade de números a serem impressos).
+
+O último loop imprime os primeiros n valores do array ans.
+
+Em resumo, o programa utiliza uma abordagem de força bruta para calcular o número de 
+divisores para cada número até 1586335 e, em seguida, encontra os primeiros 100000 valores 
+cujos divisores somam 1586335. O resultado é impresso na saída padrão.

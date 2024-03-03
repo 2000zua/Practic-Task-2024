@@ -19,3 +19,15 @@ victims, one number in each line.
 Output
 The output should contain the numbers of the residents who may be the werewolf. The numbers must be in the ascending order and 
 separated with a space. If there are no suspects, the output should contain the only number 0.
+
+O código utiliza um grafo bipartido, onde os vértices são divididos em dois conjuntos 
+(representados por g[v][0] e g[v][1]).
+A função dfs implementa uma busca em profundidade a partir de um vértice e conjunto específicos.
+O programa lê o número total de vértices n.
+As arestas do grafo bipartido são lidas até encontrar uma entrada inválida 
+(por exemplo, um caractere não numérico).
+Em seguida, o programa lê os vértices iniciais para iniciar as buscas DFS.
+As buscas DFS são realizadas em ambos os conjuntos para cada vértice inicial.
+O vetor used é usado para rastrear os vértices visitados durante as buscas DFS.
+O programa imprime os vértices que não foram alcançados durante as buscas DFS.
+Se todos os vértices foram alcançados, imprime 0
