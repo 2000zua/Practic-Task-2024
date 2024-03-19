@@ -6,9 +6,11 @@ struct vertex{
     std::vector<vertex*> out;
     int n;
 };
+
 //implementa um algoritmo de busca em profundidade
-void explore(vertex* u, std::vector<vertex*>& ans)
-{   // Go as far as we can in some direction and queue up all nodes. We are guaranteed to return.
+void explore(vertex* u, std::vector<vertex*>& ans){
+
+    // Go as far as we can in some direction and queue up all nodes. We are guaranteed to return.
     ans.push_back(u);
     std::queue<vertex*> q;
     vertex* v = u;
@@ -49,8 +51,10 @@ int main()
     }
     std::vector<vertex*> ans;
     explore(&v[last], ans);
-    printf("%d ", ans.size()-1);
+    printf("%ld ", ans.size()-1);
+
     for(auto it = ans.begin(); it < ans.end(); it++)
-        printf("%d ", (*it)->n);
+        printf("%i ", (*it)->n);
+    printf("\n");
     return 0;
 }
